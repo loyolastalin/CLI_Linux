@@ -1,6 +1,11 @@
+# reference 
+https://www.youtube.com/watch?v=hQWRp-FdTpc
+
 # linux commands
 https://www.hostinger.in/tutorials/linux-commands
+
 history
+
 ls
 
 ## installing the package
