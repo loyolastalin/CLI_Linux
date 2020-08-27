@@ -1,5 +1,7 @@
-## Install Ansible on CentOS-7
-# Run the following commands from root: (just use sudo su - )
+https://www.youtube.com/watch?v=lVcvY4Wy6_8&list=PL2qzCKTbjutIyQAe3GglWISLnLTQLGm7e&index=5
+
+# Install Ansible on CentOS-7
+## Run the following commands from root: (just use sudo su - )
 ================================
 
 python --version
