@@ -57,8 +57,7 @@
    
  docker images 
  
- docker run 34735fdde64b -p 8080:8080
- 
+
  docker run -p 8080:8080 34735fdde64b
  
  docker exec -it 34735fdde64b sh
