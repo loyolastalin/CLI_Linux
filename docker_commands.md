@@ -49,3 +49,20 @@
 
    83  sudo docker exec -it a707008cae13 sh
    84  sudo docker run -it busybox sh
+   
+   # build image
+   67  cd simpleweb/
+   68  ls
+   69  docker build .
+   
+ docker images 
+ 
+ docker run 34735fdde64b -p 8080:8080
+ 
+ docker run -p 8080:8080 34735fdde64b
+ 
+ docker exec -it 34735fdde64b sh
+ 
+ docker exec -it 48ee4c7a2741 sh
+   
+
