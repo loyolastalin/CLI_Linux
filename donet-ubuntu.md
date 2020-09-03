@@ -65,6 +65,34 @@ sudo apt-get install -y dotnet-runtime-3.1
   ## RUN - root directory
   
   dotnet run --project cApp1/cApp1.csproj
+  
+  # sample sln commands
+  
+  - mysolution.sln
+      - cl1
+        cl1.csproj
+      - cl2
+        cl2.csproj
+      - myConsoleApp
+        myconsoleapp.csproj
+    
+    
+       dotnet new console --name myConsoleApp
+   
+   dotnet new classlib --name cl1
+   
+   dotnet new classlib --name cl2  
+
+
+   dotnet.exe add myConsoleApp/myConsoleApp.csproj reference cl1/cl1.csproj cl2/cl2.csproj
+   
+   dotnet new sln --name mysolution
+   
+   dotnet sln mysolution.sln add myConsoleApp/myConsoleApp.csproj cl1/cl1.csproj cl2/cl2.csproj
+   
+   dotnet build
+   
+   dotnet.exe run --project myConsoleApp/myConsoleApp.csproj
 
     
   
