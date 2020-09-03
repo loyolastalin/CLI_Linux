@@ -70,10 +70,15 @@ sudo apt-get install -y dotnet-runtime-3.1
   
   - mysolution.sln
       - cl1
+      
         -- cl1.csproj
+        
       - cl2
+      
         -- cl2.csproj
+        
       - myConsoleApp
+      
         -- myconsoleapp.csproj
     
     
