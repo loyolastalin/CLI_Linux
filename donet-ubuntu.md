@@ -57,14 +57,12 @@ sudo apt-get install -y dotnet-runtime-3.1
   cd cApp1/
   
   dotnet add package Newtonsoft.Json --version 12.0.3
-  
-  # build
-  ## root directory
+
+  ## build - root directory
   
    dotnet build
-   
-  # RUN
-  ## root directory
+
+  ## RUN - root directory
   
   dotnet run --project cApp1/cApp1.csproj
 
