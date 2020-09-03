@@ -53,3 +53,8 @@ sudo apt-get install -y dotnet-runtime-3.1
    ls  -l
    dotnet sln mycoreSln.sln add cApp1/cApp1.csproj cl1/cl1.csproj cl2/cl2.csproj
    cat mycoreSln.sln
+   
+  cd cApp1/
+  
+  dotnet add package Newtonsoft.Json --version 12.0.3
+  
