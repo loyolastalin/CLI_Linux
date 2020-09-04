@@ -1,4 +1,4 @@
-''' code --list-extensions | % { "code --install-extension $_" } '''
+``` code --list-extensions | % { "code --install-extension $_" }```
 
 -------------------------------------------------------------------------------------------------
 
