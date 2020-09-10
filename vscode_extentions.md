@@ -1,4 +1,6 @@
-``` code --list-extensions | % { "code --install-extension $_" } ```
+```powershell
+
+code --list-extensions | % { "code --install-extension $_" } ```
 
 -------------------------------------------------------------------------------------------------
 
