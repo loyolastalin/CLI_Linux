@@ -6,7 +6,7 @@
 ## Run the following commands from root: (just use sudo su - )
 ================================
 
-```sh
+```
 $ python --version
 
 $ yum install  https://dl.fedoraproject.org/pub/epel...  (epel-release-latest-7.noarch.rpm)
