@@ -7,16 +7,16 @@
 ================================
 
 ```sh
-python --version
+$ python --version
 
-yum install  https://dl.fedoraproject.org/pub/epel...  (epel-release-latest-7.noarch.rpm)
+$ yum install  https://dl.fedoraproject.org/pub/epel...  (epel-release-latest-7.noarch.rpm)
 
-yum install ansible
+$ yum install ansible
 
-ansible --version
+$ ansible --version
 
-cd /etc/ansible/
+$ cd /etc/ansible/
 
-ls -lrt
+$ ls -lrt
 
 ```
