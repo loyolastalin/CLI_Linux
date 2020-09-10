@@ -1,3 +1,4 @@
+# Mandatory VSCODE extensions for DEV
 ```powershell
 
 code --list-extensions | % { "code --install-extension $_" } ```
